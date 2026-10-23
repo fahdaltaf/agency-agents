@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agency Agents — 267 Specialized AI Personas & Workflows</title>
-  <meta name="description" content="A complete AI agency at your fingertips. 267 specialized AI agent personas across 18 divisions, 11 production workflows, and 17 tool integrations.">
+  <title>Agency Agents — 267 Specialized AI Personas, Workflows & Team Builder</title>
+  <meta name="description" content="A complete AI agency at your fingertips. 267 specialized AI agent personas across 18 divisions, 11 production workflows, team builder quiz, and 17 tool integrations.">
   <meta property="og:title" content="Agency Agents — 267 Specialized AI Personas & Workflows">
-  <meta property="og:description" content="Browse, search, and deploy 267 domain-expert AI agent personas with proven workflows, playbooks, and runbooks.">
+  <meta property="og:description" content="Browse, search, match, and deploy 267 domain-expert AI agent personas with proven workflows, playbooks, and runbooks.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%%22%20height=%22100%%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -74,12 +74,12 @@
   
   <!-- Announcement Bar -->
   <div class="bg-gradient-to-r from-indigo-900/60 via-purple-900/50 to-pink-900/40 border-b border-indigo-500/20 py-2 px-4 text-center text-xs sm:text-sm text-indigo-200">
-    <span>✨ Updated catalog: <strong>267 Expert Personas</strong> across <strong>18 Divisions</strong> + 11 Multi-Agent Runbooks &amp; Playbooks.</span>
+    <span>✨ Complete Agency Agents Catalog: <strong>267 Expert Personas</strong> across <strong>18 Divisions</strong> • 11 Runbooks • Team Quiz • 17 Tools.</span>
     <a href="https://github.com/fahdaltaf/agency-agents" target="_blank" rel="noopener noreferrer" class="ml-2 underline font-semibold hover:text-white inline-flex items-center gap-1">Star on GitHub <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
   </div>
 
   <!-- Header & Navigation -->
-  <header class="sticky top-0 z-40 backdrop-blur-md bg-slate-950/85 border-b border-slate-800/80">
+  <header class="sticky top-0 z-40 backdrop-blur-md bg-slate-950/90 border-b border-slate-800/80">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
       
       <!-- Brand Logo -->
@@ -92,16 +92,16 @@
             Agency Agents
             <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/30">v2.5</span>
           </span>
-          <span class="text-xs text-slate-400 hidden sm:block">267 Personas • 18 Divisions • 11 Runbooks</span>
+          <span class="text-xs text-slate-400 hidden sm:block">267 Personas • 18 Divisions • 11 Workflows</span>
         </div>
       </a>
 
       <!-- Desktop Main Navigation Tabs -->
-      <nav class="hidden md:flex items-center gap-1 bg-slate-900/90 p-1 rounded-xl border border-slate-800/80 text-xs font-semibold">
+      <nav class="hidden lg:flex items-center gap-1 bg-slate-900/90 p-1 rounded-xl border border-slate-800/80 text-xs font-semibold">
         <button 
           id="tabBtn-agents" 
           onclick="switchMainTab('agents')" 
-          class="nav-tab active flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 text-white shadow-sm transition-all"
+          class="nav-tab active flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-600 text-white shadow-sm transition-all"
         >
           <i data-lucide="users" class="w-3.5 h-3.5"></i>
           <span>Agents</span>
@@ -111,7 +111,7 @@
         <button 
           id="tabBtn-divisions" 
           onclick="switchMainTab('divisions')" 
-          class="nav-tab flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
+          class="nav-tab flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
         >
           <i data-lucide="layers" class="w-3.5 h-3.5"></i>
           <span>Divisions</span>
@@ -121,27 +121,45 @@
         <button 
           id="tabBtn-workflows" 
           onclick="switchMainTab('workflows')" 
-          class="nav-tab flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
+          class="nav-tab flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
         >
           <i data-lucide="git-branch" class="w-3.5 h-3.5 text-pink-400"></i>
-          <span>Workflows &amp; Runbooks</span>
+          <span>Workflows</span>
           <span class="bg-slate-800 px-1.5 py-0.2 rounded-md text-[10px] text-slate-400">11</span>
         </button>
 
         <button 
-          id="tabBtn-tools" 
-          onclick="switchMainTab('tools')" 
-          class="nav-tab flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
+          id="tabBtn-quiz" 
+          onclick="switchMainTab('quiz')" 
+          class="nav-tab flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
+        >
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-400"></i>
+          <span>Team Quiz</span>
+        </button>
+
+        <button 
+          id="tabBtn-install" 
+          onclick="switchMainTab('install')" 
+          class="nav-tab flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
         >
           <i data-lucide="terminal" class="w-3.5 h-3.5 text-cyan-400"></i>
-          <span>CLI &amp; Tools</span>
+          <span>Install &amp; CLI</span>
           <span class="bg-slate-800 px-1.5 py-0.2 rounded-md text-[10px] text-slate-400">17</span>
+        </button>
+
+        <button 
+          id="tabBtn-about" 
+          onclick="switchMainTab('about')" 
+          class="nav-tab flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
+        >
+          <i data-lucide="info" class="w-3.5 h-3.5"></i>
+          <span>About</span>
         </button>
 
         <button 
           id="tabBtn-favorites" 
           onclick="switchMainTab('favorites')" 
-          class="nav-tab flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
+          class="nav-tab flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all"
         >
           <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400"></i>
           <span>Favorites</span>
@@ -165,14 +183,17 @@
     </div>
 
     <!-- Mobile Subnav Bar -->
-    <div class="md:hidden flex items-center gap-1 overflow-x-auto no-scrollbar px-4 py-2 border-t border-slate-800/80 bg-slate-900/60 text-xs font-semibold">
+    <div class="lg:hidden flex items-center gap-1 overflow-x-auto no-scrollbar px-4 py-2 border-t border-slate-800/80 bg-slate-900/60 text-xs font-semibold">
       <button onclick="switchMainTab('agents')" class="mobile-tab-btn active px-3 py-1 rounded-md bg-indigo-600 text-white whitespace-nowrap" id="mobTab-agents">Agents (267)</button>
       <button onclick="switchMainTab('divisions')" class="mobile-tab-btn px-3 py-1 rounded-md text-slate-300 hover:bg-slate-800 whitespace-nowrap" id="mobTab-divisions">Divisions (18)</button>
       <button onclick="switchMainTab('workflows')" class="mobile-tab-btn px-3 py-1 rounded-md text-slate-300 hover:bg-slate-800 whitespace-nowrap" id="mobTab-workflows">Workflows (11)</button>
-      <button onclick="switchMainTab('tools')" class="mobile-tab-btn px-3 py-1 rounded-md text-slate-300 hover:bg-slate-800 whitespace-nowrap" id="mobTab-tools">Tools (17)</button>
+      <button onclick="switchMainTab('quiz')" class="mobile-tab-btn px-3 py-1 rounded-md text-slate-300 hover:bg-slate-800 whitespace-nowrap" id="mobTab-quiz">Team Quiz 🎯</button>
+      <button onclick="switchMainTab('install')" class="mobile-tab-btn px-3 py-1 rounded-md text-slate-300 hover:bg-slate-800 whitespace-nowrap" id="mobTab-install">Install (17)</button>
+      <button onclick="switchMainTab('about')" class="mobile-tab-btn px-3 py-1 rounded-md text-slate-300 hover:bg-slate-800 whitespace-nowrap" id="mobTab-about">About</button>
       <button onclick="switchMainTab('favorites')" class="mobile-tab-btn px-3 py-1 rounded-md text-slate-300 hover:bg-slate-800 whitespace-nowrap" id="mobTab-favorites">Favorites ⭐</button>
     </div>
   </header>
+
 
   <!-- ========================================== -->
   <!-- TAB 1: AGENTS CATALOG (DEFAULT) -->
@@ -186,7 +207,7 @@
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 text-xs font-semibold mb-4">
           <i data-lucide="sparkles" class="w-3.5 h-3.5 text-indigo-400"></i>
-          <span>267 Specialized AI Personas Ready to Deploy</span>
+          <span>267 Specialized AI Personas Across 18 Divisions</span>
         </div>
 
         <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4">
@@ -197,7 +218,7 @@
         </h1>
 
         <p class="max-w-2xl mx-auto text-sm sm:text-base text-slate-300 mb-8 leading-relaxed">
-          From frontend wizards to Reddit growth ninjas, from security auditors to research synthesists. Each agent is a specialized persona with battle-tested workflows and proven deliverables.
+          From frontend wizards to Reddit growth ninjas, from security auditors to research synthesists. Each agent is an expert persona with battle-tested workflows and proven deliverables.
         </p>
 
         <!-- Search Bar with '/' shortcut -->
@@ -228,7 +249,7 @@
           </div>
           <div class="flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-800">
             <span class="w-2 h-2 rounded-full bg-pink-400"></span>
-            <span>1-Click Copy</span>
+            <span>1-Click Prompt Copy</span>
           </div>
           <div class="flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-800">
             <span class="w-2 h-2 rounded-full bg-amber-400"></span>
@@ -336,7 +357,7 @@
           <div>
             <h3 class="text-xl font-bold text-white flex items-center gap-2">
               <i data-lucide="zap" class="w-5 h-5 text-amber-400"></i>
-              Scenario Runbooks
+              Scenario Runbooks (4)
             </h3>
             <p class="text-xs text-slate-400">Ready-to-deploy squads sized by NEXUS activation modes (Sprint &amp; Micro).</p>
           </div>
@@ -369,21 +390,107 @@
 
 
   <!-- ========================================== -->
-  <!-- TAB 4: CLI & TOOLS INTEGRATION -->
+  <!-- TAB 4: TEAM QUIZ ("FIND YOUR AGENTS") -->
   <!-- ========================================== -->
-  <div id="tabContent-tools" class="tab-pane hidden flex-col flex-1 py-10">
+  <div id="tabContent-quiz" class="tab-pane hidden flex-col flex-1 py-12">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 w-full">
+      
+      <!-- Quiz State: Question Card -->
+      <div id="quizQuestionCard" class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 shadow-2xl">
+        <div class="flex items-center justify-between text-xs text-slate-400 mb-6">
+          <span class="inline-flex items-center gap-1.5 font-semibold text-indigo-400">
+            <i data-lucide="sparkles" class="w-4 h-4"></i>
+            Agency Team Matcher
+          </span>
+          <span id="quizStepIndicator" class="font-mono bg-slate-800 px-2.5 py-0.5 rounded-full">Question 1 of 5</span>
+        </div>
+
+        <h3 id="quizQuestionText" class="text-2xl sm:text-3xl font-extrabold text-white mb-6 leading-tight">
+          What are you building?
+        </h3>
+
+        <div id="quizOptionsContainer" class="space-y-3 mb-8">
+          <!-- Options injected by JS -->
+        </div>
+
+        <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+          <button id="quizBackBtn" onclick="quizGoBack()" class="hidden text-xs text-slate-400 hover:text-white flex items-center gap-1">
+            <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+            Previous
+          </button>
+          <div class="text-xs text-slate-500">Pick the best option to calculate your squad.</div>
+        </div>
+      </div>
+
+      <!-- Quiz State: Results Card -->
+      <div id="quizResultCard" class="hidden">
+        <div class="text-center mb-8">
+          <div class="w-16 h-16 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center mx-auto text-3xl mb-3 shadow-lg shadow-indigo-500/10">
+            🎯
+          </div>
+          <h2 class="text-3xl font-extrabold text-white mb-2">Your Recommended AI Team</h2>
+          <p class="text-sm text-slate-400 max-w-md mx-auto">Based on your project requirements and priorities, here is your customized multi-agent squad.</p>
+        </div>
+
+        <div id="quizResultsSquadList" class="space-y-4 mb-8">
+          <!-- Recommended agents injected by JS -->
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-3">
+          <button onclick="copyQuizTeamInstall()" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold flex items-center gap-2 shadow-lg shadow-indigo-600/20 transition-all">
+            <i data-lucide="copy" class="w-4 h-4"></i>
+            <span id="quizCopyTeamText">Copy Team Roster</span>
+          </button>
+          <button onclick="switchMainTab('agents')" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-semibold transition-all">
+            Browse All 267 Agents
+          </button>
+          <button onclick="resetQuiz()" class="px-4 py-2 text-xs text-slate-400 hover:text-white transition-colors">
+            Retake Quiz
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- TAB 5: INSTALL & CLI SETUP -->
+  <!-- ========================================== -->
+  <div id="tabContent-install" class="tab-pane hidden flex-col flex-1 py-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
       
       <!-- Header -->
-      <div class="text-center max-w-3xl mx-auto mb-12">
+      <div class="text-center max-w-3xl mx-auto mb-10">
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300 text-xs font-semibold mb-3">
           <i data-lucide="terminal" class="w-3.5 h-3.5 text-cyan-400"></i>
           <span>17 Supported AI Coding Tools</span>
         </div>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-3">CLI Tools &amp; Environment Setup</h2>
-        <p class="text-slate-400 text-sm sm:text-base">Agency Agents supports deterministic renders and configurations across all major AI coding assistants and CLI tools.</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-3">Installation &amp; Environment Setup</h2>
+        <p class="text-slate-400 text-sm sm:text-base">Agency Agents supports deterministic renders, global configs, and project-level scopes across all major AI development tools.</p>
       </div>
 
+      <!-- Quick 1-Line Installer Card -->
+      <div class="max-w-3xl mx-auto bg-gradient-to-r from-indigo-950/60 via-slate-900 to-purple-950/60 border border-indigo-500/30 rounded-2xl p-6 sm:p-8 mb-12 shadow-2xl">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-indigo-600/30 text-indigo-400 flex items-center justify-center font-bold">
+            <i data-lucide="zap" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-white">Universal 1-Line CLI Installer</h3>
+            <p class="text-xs text-slate-400">Automatically detects your installed AI tools and deploys agent personas into their target directories.</p>
+          </div>
+        </div>
+
+        <div class="relative bg-slate-950 border border-slate-800 rounded-xl p-4 font-mono text-xs text-cyan-300 flex items-center justify-between gap-4">
+          <code class="truncate">curl -fsSL https://agencyagents.dev/install.sh | bash</code>
+          <button onclick="copyText('curl -fsSL https://agencyagents.dev/install.sh | bash', 'Installer command copied! 📋')" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-sans text-xs font-semibold whitespace-nowrap transition-all">
+            Copy Command
+          </button>
+        </div>
+      </div>
+
+      <!-- Grid of all 17 Tools -->
       <div id="toolsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <!-- Rendered by JS -->
       </div>
@@ -393,7 +500,81 @@
 
 
   <!-- ========================================== -->
-  <!-- TAB 5: FAVORITES -->
+  <!-- TAB 6: ABOUT & PHILOSOPHY -->
+  <!-- ========================================== -->
+  <div id="tabContent-about" class="tab-pane hidden flex-col flex-1 py-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full space-y-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-3">About Agency Agents</h2>
+        <p class="text-slate-400 text-sm sm:text-base">The open-source standard for role-based AI coding personas and multi-agent coordination.</p>
+      </div>
+
+      <!-- Card 1: Philosophy -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <i data-lucide="brain" class="w-5 h-5 text-indigo-400"></i>
+          The Philosophy
+        </h3>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          Generic prompts like <em>"act as a developer"</em> produce generic, surface-level output. Agency Agents takes a fundamentally different approach: each agent has a distinct personality, proven workflows, concrete deliverables, and measurable success metrics. They don't just execute instructions — they think like seasoned domain experts.
+        </p>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          With <strong>267 agents across 18 specialized divisions</strong>, you can assemble an entire virtual digital agency tailored exactly to your stack — from frontend architecture to zero-knowledge cryptography, from growth engineering to incident response.
+        </p>
+      </div>
+
+      <!-- Card 2: Credits & Ecosystem -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8">
+        <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <i data-lucide="award" class="w-5 h-5 text-amber-400"></i>
+          Credits &amp; Ecosystem
+        </h3>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800/80">
+            <span class="text-slate-500 block mb-1">Original Creator</span>
+            <a href="https://github.com/msitarzewski" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:underline font-bold text-sm flex items-center gap-1">
+              @msitarzewski <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            </a>
+            <p class="text-slate-400 mt-1">Created the original Agency Agents persona repository.</p>
+          </div>
+
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800/80">
+            <span class="text-slate-500 block mb-1">Web Platform &amp; App</span>
+            <a href="https://github.com/salmandev" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:underline font-bold text-sm flex items-center gap-1">
+              @salmandev <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            </a>
+            <p class="text-slate-400 mt-1">Creator of agencyagents.dev and command center.</p>
+          </div>
+
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800/80">
+            <span class="text-slate-500 block mb-1">Deployment &amp; Catalog</span>
+            <a href="https://github.com/fahdaltaf" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:underline font-bold text-sm flex items-center gap-1">
+              @fahdaltaf <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            </a>
+            <p class="text-slate-400 mt-1">Expanded 267-agent catalog on Vercel.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: MIT License -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 flex items-center justify-between gap-4">
+        <div>
+          <h4 class="text-base font-bold text-white mb-1">Open Source &amp; MIT Licensed</h4>
+          <p class="text-xs text-slate-400">Free to use, customize, and integrate into personal, commercial, or enterprise projects.</p>
+        </div>
+        <a href="https://github.com/fahdaltaf/agency-agents/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 transition-colors whitespace-nowrap">
+          View License
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- TAB 7: FAVORITES -->
   <!-- ========================================== -->
   <div id="tabContent-favorites" class="tab-pane hidden flex-col flex-1 py-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -574,6 +755,53 @@
     let toolsData = {};
     let currentWorkflowDocText = '';
 
+    // Quiz State
+    let quizCurrentStep = 0;
+    let quizAnswers = [];
+    let quizMultiSelections = [];
+    let quizResultSquad = [];
+
+    const quizQuestions = [
+      {
+        question: "What are you building?",
+        options: ["Web app", "Mobile app", "API/Backend", "Marketing campaign", "Data pipeline", "Game", "Content/Media", "Other"]
+      },
+      {
+        question: "What's your biggest challenge right now?",
+        options: ["Code quality", "Security", "Performance", "User growth", "Shipping speed", "Team coordination", "Content creation", "Testing"]
+      },
+      {
+        question: "What's your team size?",
+        options: ["Solo", "2-5 people", "6-20 people", "20+ people"]
+      },
+      {
+        question: "What tools do you use?",
+        options: ["Claude Code", "Cursor", "Windsurf", "Aider", "GitHub Copilot", "Qwen Code", "Antigravity", "Gemini CLI"],
+        multi: true
+      },
+      {
+        question: "How experienced are you with AI coding assistants?",
+        options: ["Just starting", "Somewhat experienced", "Power user"]
+      }
+    ];
+
+    const quizMappings = {
+      "Web app+Code quality": ["Frontend Developer", "Code Reviewer", "Reality Checker", "UX Architect"],
+      "Web app+Security": ["Security Engineer", "Backend Architect", "Code Reviewer", "SRE"],
+      "Web app+Performance": ["Frontend Developer", "Performance Benchmarker", "Database Optimizer", "SRE"],
+      "Web app+User growth": ["Growth Hacker", "Frontend Developer", "Content Creator", "SEO Specialist"],
+      "Web app+Shipping speed": ["Rapid Prototyper", "Frontend Developer", "Senior Developer", "DevOps Automator"],
+      "Mobile app+Code quality": ["Mobile App Builder", "Code Reviewer", "UI Designer", "Reality Checker"],
+      "Mobile app+Shipping speed": ["Mobile App Builder", "Rapid Prototyper", "UI Designer", "DevOps Automator"],
+      "API/Backend+Security": ["Backend Architect", "Security Engineer", "API Tester", "Database Optimizer"],
+      "API/Backend+Performance": ["Backend Architect", "Database Optimizer", "Performance Benchmarker", "SRE"],
+      "Marketing campaign+User growth": ["Growth Hacker", "Content Creator", "Twitter Engager", "SEO Specialist", "Instagram Curator"],
+      "Marketing campaign+Content creation": ["Content Creator", "Instagram Curator", "LinkedIn Content Creator", "Podcast Strategist"],
+      "Data pipeline+Code quality": ["Data Engineer", "AI Data Remediation Engineer", "Database Optimizer", "Code Reviewer"],
+      "Game+Shipping speed": ["Game Designer", "Level Designer", "Technical Artist", "Narrative Designer"],
+      "Content/Media+Content creation": ["Content Creator", "Visual Storyteller", "Brand Guardian", "Whimsy Injector"]
+    };
+
     // Initialize
     async function initApp() {
       updateFavBadge();
@@ -620,13 +848,14 @@
 
       // Check URL hash for initial tab
       const hash = window.location.hash.replace('#', '');
-      if (['agents', 'divisions', 'workflows', 'tools', 'favorites'].includes(hash)) {
+      if (['agents', 'divisions', 'workflows', 'quiz', 'install', 'about', 'favorites'].includes(hash)) {
         switchMainTab(hash);
       } else {
         applyFiltersAndRender();
       }
 
       setupEventListeners();
+      initQuiz();
       lucide.createIcons();
     }
 
@@ -642,11 +871,11 @@
 
       // Update Desktop Nav Buttons
       document.querySelectorAll('.nav-tab').forEach(b => {
-        b.className = 'nav-tab flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all';
+        b.className = 'nav-tab flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-all';
       });
       const activeBtn = document.getElementById(`tabBtn-${tabName}`);
       if (activeBtn) {
-        activeBtn.className = 'nav-tab active flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 text-white shadow-sm transition-all';
+        activeBtn.className = 'nav-tab active flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-600 text-white shadow-sm transition-all';
       }
 
       // Update Mobile Nav Buttons
@@ -662,6 +891,8 @@
         applyFiltersAndRender();
       } else if (tabName === 'favorites') {
         renderFavoritesTab();
+      } else if (tabName === 'quiz') {
+        renderQuizStep();
       }
 
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -902,7 +1133,6 @@
       // 4 Runbooks
       const rbGrid = document.getElementById('runbooksGrid');
       rbGrid.innerHTML = workflowsData.runbooks.map(rb => {
-        const totalAgents = rb.roster.reduce((sum, g) => sum + g.agents.length, 0);
         return `
           <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
             <div>
@@ -1033,7 +1263,182 @@
     }
 
     // ==========================================
-    // TAB 4: CLI TOOLS & INTEGRATIONS
+    // TAB 4: TEAM QUIZ LOGIC
+    // ==========================================
+    function initQuiz() {
+      quizCurrentStep = 0;
+      quizAnswers = [];
+      quizMultiSelections = [];
+    }
+
+    function renderQuizStep() {
+      const qCard = document.getElementById('quizQuestionCard');
+      const rCard = document.getElementById('quizResultCard');
+      const backBtn = document.getElementById('quizBackBtn');
+
+      if (quizCurrentStep >= quizQuestions.length) {
+        qCard.classList.add('hidden');
+        rCard.classList.remove('hidden');
+        renderQuizResults();
+        return;
+      }
+
+      qCard.classList.remove('hidden');
+      rCard.classList.add('hidden');
+
+      const q = quizQuestions[quizCurrentStep];
+      document.getElementById('quizStepIndicator').textContent = `Question ${quizCurrentStep + 1} of ${quizQuestions.length}`;
+      document.getElementById('quizQuestionText').textContent = q.question;
+
+      if (quizCurrentStep > 0) {
+        backBtn.classList.remove('hidden');
+      } else {
+        backBtn.classList.add('hidden');
+      }
+
+      const optionsBox = document.getElementById('quizOptionsContainer');
+      if (q.multi) {
+        optionsBox.innerHTML = `
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
+            ${q.options.map(opt => {
+              const selected = quizMultiSelections.includes(opt);
+              return `
+                <button 
+                  onclick="toggleQuizMultiOpt('${opt}')" 
+                  class="p-3 rounded-xl border text-left text-xs font-semibold flex items-center justify-between transition-all ${selected ? 'bg-indigo-600/20 border-indigo-500 text-white' : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'}"
+                >
+                  <span>${opt}</span>
+                  <i data-lucide="${selected ? 'check-circle-2' : 'circle'}" class="w-4 h-4 ${selected ? 'text-indigo-400' : 'text-slate-600'}"></i>
+                </button>
+              `;
+            }).join('')}
+          </div>
+          <button onclick="submitQuizMultiStep()" class="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-all shadow-md">
+            Continue Next →
+          </button>
+        `;
+      } else {
+        optionsBox.innerHTML = q.options.map(opt => `
+          <button 
+            onclick="selectQuizOption('${opt}')" 
+            class="w-full p-4 rounded-xl bg-slate-950 hover:bg-slate-800/80 border border-slate-800 hover:border-indigo-500/50 text-left text-sm font-semibold text-slate-200 hover:text-white flex items-center justify-between transition-all group"
+          >
+            <span>${opt}</span>
+            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-600 group-hover:text-indigo-400 transition-colors"></i>
+          </button>
+        `).join('');
+      }
+
+      lucide.createIcons();
+    }
+
+    function selectQuizOption(option) {
+      quizAnswers[quizCurrentStep] = option;
+      quizCurrentStep++;
+      renderQuizStep();
+    }
+
+    function toggleQuizMultiOpt(opt) {
+      const idx = quizMultiSelections.indexOf(opt);
+      if (idx === -1) {
+        quizMultiSelections.push(opt);
+      } else {
+        quizMultiSelections.splice(idx, 1);
+      }
+      renderQuizStep();
+    }
+
+    function submitQuizMultiStep() {
+      if (quizMultiSelections.length === 0) {
+        quizMultiSelections = ["Claude Code"];
+      }
+      quizAnswers[quizCurrentStep] = quizMultiSelections.join(', ');
+      quizCurrentStep++;
+      renderQuizStep();
+    }
+
+    function quizGoBack() {
+      if (quizCurrentStep > 0) {
+        quizCurrentStep--;
+        renderQuizStep();
+      }
+    }
+
+    function resetQuiz() {
+      initQuiz();
+      renderQuizStep();
+    }
+
+    function renderQuizResults() {
+      const proj = quizAnswers[0] || 'Web app';
+      const challenge = quizAnswers[1] || 'Code quality';
+      const key = `${proj}+${challenge}`;
+
+      const names = quizMappings[key] || ["Frontend Developer", "Code Reviewer", "Rapid Prototyper", "Reality Checker"];
+      
+      quizResultSquad = names.map((name, i) => {
+        const found = allAgents.find(a => a.name.toLowerCase() === name.toLowerCase() || a.name.toLowerCase().includes(name.toLowerCase()));
+        const agentObj = found || allAgents[i % allAgents.length];
+        const confidence = Math.max(96 - (i * 7), 75);
+        return {
+          agent: agentObj,
+          reason: `Specialized for your ${proj.toLowerCase()} with focus on ${challenge.toLowerCase()}`,
+          confidence: confidence
+        };
+      });
+
+      const list = document.getElementById('quizResultsSquadList');
+      list.innerHTML = quizResultSquad.map(item => {
+        const ag = item.agent;
+        const color = ag.divisionColor || '#6366f1';
+        return `
+          <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex items-center justify-between gap-4" style="border-left: 4px solid ${color};">
+            <div class="flex items-center gap-3.5">
+              <span class="text-3xl p-2 rounded-lg bg-slate-950 border border-slate-800 flex-shrink-0">
+                ${ag.emoji || '🤖'}
+              </span>
+              <div>
+                <div class="flex items-center gap-2 mb-0.5">
+                  <h4 class="text-base font-bold text-white hover:text-indigo-400 cursor-pointer" onclick="openAgentModal('${ag.id}')">
+                    ${ag.name}
+                  </h4>
+                  <span class="text-[10px] font-semibold px-2 py-0.2 rounded-full bg-slate-800 text-slate-300">
+                    ${ag.divisionLabel}
+                  </span>
+                </div>
+                <p class="text-xs text-slate-400 italic">${item.reason}</p>
+              </div>
+            </div>
+
+            <div class="text-right flex-shrink-0">
+              <div class="text-sm font-bold text-indigo-400">${item.confidence}% Match</div>
+              <div class="w-16 h-1.5 bg-slate-800 rounded-full mt-1 overflow-hidden">
+                <div class="h-full bg-indigo-500 rounded-full" style="width: ${item.confidence}%"></div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      lucide.createIcons();
+    }
+
+    async function copyQuizTeamInstall() {
+      if (quizResultSquad.length === 0) return;
+      const text = quizResultSquad.map(item => `${item.agent.emoji} ${item.agent.name} (${item.agent.divisionLabel}) — ${item.agent.description || item.reason}`).join('\n');
+      try {
+        await navigator.clipboard.writeText(text);
+        showToast('Team roster copied to clipboard! 📋');
+        const btnText = document.getElementById('quizCopyTeamText');
+        btnText.textContent = 'Copied! ✓';
+        setTimeout(() => { btnText.textContent = 'Copy Team Roster'; }, 2000);
+      } catch (e) {
+        showToast('Failed to copy', true);
+      }
+    }
+
+    // ==========================================
+    // TAB 5: INSTALL & TOOLS TAB
     // ==========================================
     function renderToolsTab() {
       const grid = document.getElementById('toolsGrid');
@@ -1078,7 +1483,7 @@
             </div>
 
             <button 
-              onclick="copyToolTemplate('${destSample}')"
+              onclick="copyText('${destSample}', 'Path format copied! 📋')"
               class="w-full py-1.5 px-3 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white flex items-center justify-center gap-1.5 transition-all"
             >
               <i data-lucide="copy" class="w-3.5 h-3.5"></i>
@@ -1090,13 +1495,8 @@
       lucide.createIcons();
     }
 
-    function copyToolTemplate(template) {
-      navigator.clipboard.writeText(template);
-      showToast('Target path copied to clipboard! 📋');
-    }
-
     // ==========================================
-    // TAB 5: FAVORITES
+    // TAB 7: FAVORITES TAB
     // ==========================================
     function renderFavoritesTab() {
       const grid = document.getElementById('favoritesGrid');
@@ -1300,6 +1700,11 @@
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
       showToast(`Downloaded ${currentAgent.slug}.md ⬇️`);
+    }
+
+    function copyText(str, msg) {
+      navigator.clipboard.writeText(str);
+      showToast(msg || 'Copied! 📋');
     }
 
     function showToast(msg, isError = false) {
