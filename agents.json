@@ -165,6 +165,21 @@
     "path": "design/design-ui-designer.md"
   },
   {
+    "id": "design-design-ui-finish-gate-reviewer",
+    "slug": "design-ui-finish-gate-reviewer",
+    "name": "UI Finish-Gate Reviewer",
+    "division": "design",
+    "divisionLabel": "Design",
+    "divisionColor": "#EC4899",
+    "divisionIcon": "PenTool",
+    "emoji": "🧱",
+    "description": "Product-interface reviewer who catches generic, interchangeable UI before it ships by grounding critique in real product evidence, a written design contract, and a hard implementation finish gate.",
+    "vibe": "Allergic to dashboards that could belong to literally any product.",
+    "color": "orange",
+    "tools": "",
+    "path": "design/design-ui-finish-gate-reviewer.md"
+  },
+  {
     "id": "design-design-ux-architect",
     "slug": "design-ux-architect",
     "name": "UX Architect",
@@ -270,6 +285,21 @@
     "path": "engineering/engineering-api-platform-engineer.md"
   },
   {
+    "id": "engineering-engineering-ats-validator-architect",
+    "slug": "engineering-ats-validator-architect",
+    "name": "ATS Validator Architect",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🎯",
+    "description": "Architect and validator for Applicant Tracking Systems (ATS) and resume parsers. Combines deterministic information retrieval (BM25/TF-IDF and n-grams without AI), quantified Google/IBM X-Y-Z heuristics calibrated by seniority, layout linearization and PDF text layer integrity auditing, regulatory compliance (EU AI Act, NYC LL 144), sub-5ms client-side execution, and Agent-Native BYOK architecture.",
+    "vibe": "Parsers don't read between the lines; they read bounding boxes and token streams. Never let styling sacrifice discoverability.",
+    "color": "\"#2563EB\"",
+    "tools": "",
+    "path": "engineering/engineering-ats-validator-architect.md"
+  },
+  {
     "id": "engineering-engineering-autonomous-optimization-architect",
     "slug": "engineering-autonomous-optimization-architect",
     "name": "Autonomous Optimization Architect",
@@ -298,6 +328,21 @@
     "color": "blue",
     "tools": "",
     "path": "engineering/engineering-backend-architect.md"
+  },
+  {
+    "id": "engineering-engineering-china-network-engineer",
+    "slug": "engineering-china-network-engineer",
+    "name": "China Network Engineer",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🌏",
+    "description": "Expert in mainland China's mainstream enterprise networking stacks — Huawei VRP, H3C Comware, Ruijie RGOS, and Hillstone StoneOS — covering routing, switching, firewalling, NAT, and MLPS 2.0 (等保) compliant border design for domestic deployments.",
+    "vibe": "VRP, Comware, RGOS, StoneOS — four CLIs, one network, zero lost packets. Change windows are real, rollback plans are written before the first command runs.",
+    "color": "\"#C62828\"",
+    "tools": "",
+    "path": "engineering/engineering-china-network-engineer.md"
   },
   {
     "id": "engineering-engineering-cms-developer",
@@ -360,6 +405,21 @@
     "path": "engineering/engineering-data-engineer.md"
   },
   {
+    "id": "engineering-engineering-data-visualization-engineer",
+    "slug": "engineering-data-visualization-engineer",
+    "name": "Data Visualization Engineer",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "📈",
+    "description": "Expert data visualization engineer — chart-type selection by data and question, perceptually honest encodings, colorblind-safe data palettes, accessible and interactive charts, and rendering large datasets performantly with D3, Vega, and charting libraries.",
+    "vibe": "The chart's job is to tell the truth fast. Pick the encoding the eye reads accurately, and never let a pretty axis lie.",
+    "color": "\"#0F766E\"",
+    "tools": "",
+    "path": "engineering/engineering-data-visualization-engineer.md"
+  },
+  {
     "id": "engineering-engineering-database-optimizer",
     "slug": "engineering-database-optimizer",
     "name": "Database Optimizer",
@@ -413,7 +473,7 @@
     "divisionColor": "#3B82F6",
     "divisionIcon": "Code",
     "emoji": "🛠️",
-    "description": "Expert developer-tooling and CLI engineer — building command-line tools and internal developer platforms with great DX: intuitive command design, helpful errors, shell completions, fast startup, cross-platform distribution, and scriptable, composable interfaces.",
+    "description": "\"Expert developer-tooling and CLI engineer — building command-line tools and internal developer platforms with great DX: intuitive command design, helpful errors, shell completions, fast startup, cross-platform distribution, and scriptable, composable interfaces.\"",
     "vibe": "The tool developers reach for is the one that respects their time. Fast, obvious, scriptable, and it fails with a fix, not a stack trace.",
     "color": "\"#4F46E5\"",
     "tools": "",
@@ -555,6 +615,21 @@
     "path": "engineering/engineering-frontend-developer.md"
   },
   {
+    "id": "engineering-engineering-gaussdb-expert",
+    "slug": "engineering-gaussdb-expert",
+    "name": "GaussDB Expert Engineer",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🗄️",
+    "description": "Expert database specialist focusing on GaussDB OLTP — Huawei's self-developed enterprise-grade relational database (NOT GaussDB(DWS) OLAP, NOT GaussDB(for openGauss) cloud service, NOT GaussDB(for MySQL)). Covers schema design, distributed table design, query optimization, indexing, Ustore engine, and performance tuning for both distributed and centralized deployments.",
+    "vibe": "Distribution keys, CN/DN query plans, Ustore engine — GaussDB databases that don't wake you at 3am.",
+    "color": "amber",
+    "tools": "",
+    "path": "engineering/engineering-gaussdb-expert.md"
+  },
+  {
     "id": "engineering-engineering-git-workflow-master",
     "slug": "engineering-git-workflow-master",
     "name": "Git Workflow Master",
@@ -643,6 +718,36 @@
     "color": "blue",
     "tools": "",
     "path": "engineering/engineering-it-service-manager.md"
+  },
+  {
+    "id": "engineering-engineering-knowledge-graph-engineer",
+    "slug": "engineering-knowledge-graph-engineer",
+    "name": "Knowledge Graph Engineer",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🧠",
+    "description": "Structures information and capabilities into interconnected nodes (entities) and edges (relationships) — enabling dynamic context navigation, modular competency chaining, lower token costs, and hallucination reduction.",
+    "vibe": "Flat files are dead. Every piece of information is a node; every relationship is an edge. Navigate the graph, not the noise.",
+    "color": "violet",
+    "tools": "",
+    "path": "engineering/engineering-knowledge-graph-engineer.md"
+  },
+  {
+    "id": "engineering-engineering-llm-post-training-engineer",
+    "slug": "engineering-llm-post-training-engineer",
+    "name": "LLM Post-Training Engineer",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🧪",
+    "description": "Evidence-driven owner for SFT, preference optimization, RLHF/RLVR, MoE post-training, and the release gates that turn a checkpoint into a defensible model change.",
+    "vibe": "Treats every run as a controlled behavioral change; loss, reward, throughput, an exit code, or a checkpoint directory is never sufficient evidence by itself.",
+    "color": "\"#0F766E\"",
+    "tools": "",
+    "path": "engineering/engineering-llm-post-training-engineer.md"
   },
   {
     "id": "engineering-engineering-minimal-change-engineer",
@@ -750,6 +855,51 @@
     "path": "engineering/engineering-payments-billing-engineer.md"
   },
   {
+    "id": "engineering-engineering-pdf-engine-architect",
+    "slug": "engineering-pdf-engine-architect",
+    "name": "PDF Engine Architect",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "📑",
+    "description": "Architect and specialist in deterministic HTML-to-PDF document compilation, Playwright browser context pools, dynamic Euclidean page sizing, LayoutNG subpixel budgeting, tagged PDF (PDF/UA-1 & PDF/A-2b), and 1:1 sheet canvas editors.",
+    "vibe": "The web viewport is infinite; the physical page is unyielding. Never let dynamic content break the geometry of print.",
+    "color": "\"#DC2626\"",
+    "tools": "",
+    "path": "engineering/engineering-pdf-engine-architect.md"
+  },
+  {
+    "id": "engineering-engineering-platform-engineer",
+    "slug": "engineering-platform-engineer",
+    "name": "Platform Engineer",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🛤️",
+    "description": "Expert internal developer platform (IDP) engineer specializing in golden paths, paved roads, and self-serve infrastructure that multiplies engineering velocity.",
+    "vibe": "The platform is the product. If developers can't self-serve it, you haven't finished building it.",
+    "color": "\"#0EA5E9\"",
+    "tools": "",
+    "path": "engineering/engineering-platform-engineer.md"
+  },
+  {
+    "id": "engineering-engineering-privacy-engineer",
+    "slug": "engineering-privacy-engineer",
+    "name": "Privacy Engineer",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🕵️",
+    "description": "Expert privacy engineer who implements privacy in code — PII discovery and classification, data minimization, consent enforcement at the API layer, automated DSAR and deletion across services, pseudonymization/tokenization, and retention automation. Builds the technical controls a privacy policy only promises.",
+    "vibe": "A privacy policy is a promise; the code is whether you kept it. Delete means deleted, everywhere, provably.",
+    "color": "\"#7E22CE\"",
+    "tools": "",
+    "path": "engineering/engineering-privacy-engineer.md"
+  },
+  {
     "id": "engineering-engineering-prompt-engineer",
     "slug": "engineering-prompt-engineer",
     "name": "Prompt Engineer",
@@ -763,6 +913,21 @@
     "color": "violet",
     "tools": "",
     "path": "engineering/engineering-prompt-engineer.md"
+  },
+  {
+    "id": "engineering-engineering-rag-pipeline-engineer",
+    "slug": "engineering-rag-pipeline-engineer",
+    "name": "RAG Pipeline Engineer",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🔍",
+    "description": "Production RAG specialist focused on chunking strategy, retrieval quality, hybrid search, re-ranking, and eval-driven iteration. Builds pipelines that actually retrieve the right context — not just pipelines that run.",
+    "vibe": "The LLM gets the blame. The retrieval is the crime scene. I have the evals to prove otherwise.",
+    "color": "\"#F97316\"",
+    "tools": "",
+    "path": "engineering/engineering-rag-pipeline-engineer.md"
   },
   {
     "id": "engineering-engineering-rapid-prototyper",
@@ -793,6 +958,21 @@
     "color": "\"#E11D48\"",
     "tools": "",
     "path": "engineering/engineering-realtime-collaboration-engineer.md"
+  },
+  {
+    "id": "engineering-engineering-rust-refactoring-specialist",
+    "slug": "engineering-rust-refactoring-specialist",
+    "name": "Rust Refactoring Specialist",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🦀",
+    "description": "Expert Rust engineer for repository-scale refactoring, safe renames, module restructuring, duplication removal, panic hardening, ownership improvements, and compiler or Clippy remediation.",
+    "vibe": "Complete the coherent refactor, prove its safety, and leave no half-migration behind.",
+    "color": "\"#991B1B\"",
+    "tools": "",
+    "path": "engineering/engineering-rust-refactoring-specialist.md"
   },
   {
     "id": "engineering-engineering-search-relevance-engineer",
@@ -838,6 +1018,21 @@
     "color": "green",
     "tools": "",
     "path": "engineering/engineering-senior-developer.md"
+  },
+  {
+    "id": "engineering-engineering-servicenow-developer-mentor",
+    "slug": "engineering-servicenow-developer-mentor",
+    "name": "ServiceNow Developer & Mentor",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🛠️",
+    "description": "ServiceNow platform developer and step-by-step troubleshooter — Business Rules, Script Includes, GlideRecord/GlideAggregate, Flow Designer, ACLs, and \"is this OOTB or did custom break it?\" isolation",
+    "vibe": "\"Check the logs and isolate OOTB vs custom before you guess — the instance almost always told you what's wrong.\"",
+    "color": "green",
+    "tools": "",
+    "path": "engineering/engineering-servicenow-developer-mentor.md"
   },
   {
     "id": "engineering-engineering-software-architect",
@@ -898,6 +1093,21 @@
     "color": "teal",
     "tools": "",
     "path": "engineering/engineering-technical-writer.md"
+  },
+  {
+    "id": "engineering-engineering-universal-document-compiler",
+    "slug": "engineering-universal-document-compiler",
+    "name": "Universal Document Compiler",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "📑",
+    "description": "Architect of schema-agnostic document ASTs, algorithmic data-shape layout inference, bidirectional CST-to-canvas synchronization, and universal paged document publishing.",
+    "vibe": "The shape of the data dictates the architecture of the page; no human thought should ever be constrained by static schemas.",
+    "color": "\"#3B82F6\"",
+    "tools": "",
+    "path": "engineering/engineering-universal-document-compiler.md"
   },
   {
     "id": "engineering-engineering-uswds-developer",
@@ -1078,6 +1288,21 @@
     "color": "green",
     "tools": "",
     "path": "finance/finance-tax-strategist.md"
+  },
+  {
+    "id": "game-development-economy-designer",
+    "slug": "economy-designer",
+    "name": "Economy Designer",
+    "division": "game-development",
+    "divisionLabel": "Game Development",
+    "divisionColor": "#A855F7",
+    "divisionIcon": "Gamepad2",
+    "emoji": "💰",
+    "description": "Virtual economy architect - Masters currency systems, sources and sinks, monetization modeling, inflation control, and data-driven economic balancing for live games",
+    "vibe": "Sees every game as a flow of currencies, and every player decision as a transaction.",
+    "color": "green",
+    "tools": "",
+    "path": "game-development/economy-designer.md"
   },
   {
     "id": "game-development-game-audio-engineer",
@@ -1508,7 +1733,7 @@
     "divisionColor": "#F97316",
     "divisionIcon": "Megaphone",
     "emoji": "🎠",
-    "description": "Autonomous TikTok and Instagram carousel generation specialist. Analyzes any website URL with Playwright, generates viral 6-slide carousels via Gemini image generation, publishes directly to feed via Upload-Post API with auto trending music, fetches analytics, and iteratively improves through a data-driven learning loop.",
+    "description": "Autonomous TikTok and Instagram carousel generation specialist. Analyzes any website URL with Playwright, generates viral 6-slide carousels via Gemini image generation, publishes to TikTok and Instagram through their official APIs or a multi-platform publishing service with auto-added music, fetches analytics, and iteratively improves through a data-driven learning loop.",
     "vibe": "Autonomously generates viral carousels from any URL and publishes them to feed.",
     "color": "\"#FF0050\"",
     "tools": "",
@@ -1573,6 +1798,21 @@
     "color": "blue",
     "tools": "",
     "path": "marketing/marketing-cross-border-ecommerce.md"
+  },
+  {
+    "id": "marketing-marketing-developer-community-builder",
+    "slug": "marketing-developer-community-builder",
+    "name": "Developer Community Builder",
+    "division": "marketing",
+    "divisionLabel": "Marketing",
+    "divisionColor": "#F97316",
+    "divisionIcon": "Megaphone",
+    "emoji": "🌱",
+    "description": "Grows and sustains developer communities — Discord servers, GitHub discussions, forums, and contributor programs — turning users into advocates and advocates into contributors.",
+    "vibe": "I build the room where developers want to stay — then I make sure they have a reason to bring others.",
+    "color": "green",
+    "tools": "",
+    "path": "marketing/marketing-developer-community-builder.md"
   },
   {
     "id": "marketing-marketing-douyin-strategist",
@@ -2055,6 +2295,21 @@
     "path": "product/product-behavioral-nudge-engine.md"
   },
   {
+    "id": "product-product-dx-engineer",
+    "slug": "product-dx-engineer",
+    "name": "DX Engineer",
+    "division": "product",
+    "divisionLabel": "Product",
+    "divisionColor": "#D946EF",
+    "divisionIcon": "Box",
+    "emoji": "🔬",
+    "description": "Removes every unnecessary step between a developer and their first success — SDK samples, onboarding flows, error messages, and the feedback loops that make products feel like they were built by someone who's used them.",
+    "vibe": "If a developer has to guess, I've already failed — friction is a bug and I'm here to fix it.",
+    "color": "purple",
+    "tools": "",
+    "path": "product/product-dx-engineer.md"
+  },
+  {
     "id": "product-product-feedback-synthesizer",
     "slug": "product-feedback-synthesizer",
     "name": "Feedback Synthesizer",
@@ -2218,6 +2473,21 @@
     "color": "blue",
     "tools": "",
     "path": "project-management/project-manager-senior.md"
+  },
+  {
+    "id": "research-research-synthesist",
+    "slug": "research-synthesist",
+    "name": "Research Synthesist",
+    "division": "research",
+    "divisionLabel": "Research",
+    "divisionColor": "#7C3AED",
+    "divisionIcon": "Search",
+    "emoji": "🔍",
+    "description": "Expert in literature review, source evaluation, and evidence synthesis — turns a scattered pile of sources into a structured, honestly-weighted map of what the evidence actually supports",
+    "vibe": "A hundred citations pointing the same direction is still one piece of evidence if they all trace back to the same study",
+    "color": "\"#9333EA\"",
+    "tools": "",
+    "path": "research/research-synthesist.md"
   },
   {
     "id": "sales-sales-account-strategist",
@@ -2850,6 +3120,21 @@
     "path": "specialized/grant-writer.md"
   },
   {
+    "id": "specialized-healthcare-aging-parent-care-companion",
+    "slug": "healthcare-aging-parent-care-companion",
+    "name": "Aging Parent Care Companion",
+    "division": "specialized",
+    "divisionLabel": "Specialized",
+    "divisionColor": "#6366F1",
+    "divisionIcon": "Sparkles",
+    "emoji": "🧡",
+    "description": "Compassionate, HIPAA-aligned care coordination and decision-support agent for family caregivers managing an aging parent's appointments, medications, care team communication, and their own caregiver wellbeing",
+    "vibe": "Behind every medication list and appointment reminder is a parent who raised you, and a caregiver doing one of the hardest jobs there is. You deserve a steady partner, not another thing to manage.",
+    "color": "\"#0D9488\"",
+    "tools": "",
+    "path": "specialized/healthcare-aging-parent-care-companion.md"
+  },
+  {
     "id": "specialized-healthcare-customer-service",
     "slug": "healthcare-customer-service",
     "name": "Healthcare Customer Service",
@@ -3135,6 +3420,21 @@
     "path": "specialized/report-distribution-agent.md"
   },
   {
+    "id": "specialized-resume-tailor",
+    "slug": "resume-tailor",
+    "name": "Resume Tailor",
+    "division": "specialized",
+    "divisionLabel": "Specialized",
+    "divisionColor": "#6366F1",
+    "divisionIcon": "Sparkles",
+    "emoji": "🧾",
+    "description": "Candidate-side resume optimization specialist who analyzes job descriptions, maps real experience to role requirements, improves ATS keyword alignment, and rewrites bullets without fabricating qualifications.",
+    "vibe": "Tailors the resume to the role without tailoring the truth.",
+    "color": "teal",
+    "tools": "",
+    "path": "specialized/resume-tailor.md"
+  },
+  {
     "id": "specialized-retail-customer-returns",
     "slug": "retail-customer-returns",
     "name": "Retail Customer Returns",
@@ -3285,6 +3585,21 @@
     "path": "specialized/specialized-fedramp-rmf-compliance.md"
   },
   {
+    "id": "specialized-specialized-focus-music-architect",
+    "slug": "specialized-focus-music-architect",
+    "name": "Focus Music Architect",
+    "division": "specialized",
+    "divisionLabel": "Specialized",
+    "divisionColor": "#6366F1",
+    "divisionIcon": "Sparkles",
+    "emoji": "🎧",
+    "description": "Instrumental focus music specialist and neuroacoustic prompt engineer — crafts high-yield prompts, soundscape architectures, BPM curves, and binaural layers for deep cognitive flow and generative audio models.",
+    "vibe": "Transforms mental fatigue into deep cognitive flow state through tailored acoustic science and generative audio engineering.",
+    "color": "indigo",
+    "tools": "",
+    "path": "specialized/specialized-focus-music-architect.md"
+  },
+  {
     "id": "specialized-specialized-french-consulting-market",
     "slug": "specialized-french-consulting-market",
     "name": "French Consulting Market Navigator",
@@ -3313,6 +3628,21 @@
     "color": "\"#003478\"",
     "tools": "",
     "path": "specialized/specialized-korean-business-navigator.md"
+  },
+  {
+    "id": "specialized-specialized-master-plan-architect",
+    "slug": "specialized-master-plan-architect",
+    "name": "Master Plan Architect",
+    "division": "specialized",
+    "divisionLabel": "Specialized",
+    "divisionColor": "#6366F1",
+    "divisionIcon": "Sparkles",
+    "emoji": "\"🏛️\"",
+    "description": "Master planning architect, technical educator, and ruthless plan critic who specializes in deep architectural teaching, Red Teaming / risk critique, and crafting comprehensive Implementation Plans in Markdown with ZERO code execution.",
+    "vibe": "Think deeply, honor past engineering dignity, red-team every assumption, and draft immutable implementation contracts before writing a single line of code.",
+    "color": "indigo",
+    "tools": "",
+    "path": "specialized/specialized-master-plan-architect.md"
   },
   {
     "id": "specialized-specialized-mcp-builder",
@@ -3578,7 +3908,7 @@
     "divisionColor": "#F59E0B",
     "divisionIcon": "FlaskConical",
     "emoji": "📸",
-    "description": "Screenshot-obsessed, fantasy-allergic QA specialist - Default to finding 3-5 issues, requires visual proof for everything",
+    "description": "Screenshot-obsessed, fantasy-allergic QA specialist - Reports reproducible issues with evidence and marks untested scope honestly",
     "vibe": "Screenshot-obsessed QA who won't approve anything without visual proof.",
     "color": "orange",
     "tools": "",
