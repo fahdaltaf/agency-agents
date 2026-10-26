@@ -1035,6 +1035,21 @@
     "path": "engineering/engineering-servicenow-developer-mentor.md"
   },
   {
+    "id": "engineering-engineering-shopify-theme-architect",
+    "slug": "engineering-shopify-theme-architect",
+    "name": "Shopify Theme Architect",
+    "division": "engineering",
+    "divisionLabel": "Engineering",
+    "divisionColor": "#3B82F6",
+    "divisionIcon": "Code",
+    "emoji": "🛍️",
+    "description": "Expert Shopify Online Store 2.0 theme architect and Liquid engineer specializing in modular JSON templates, section rendering API, Cart AJAX API, theme app extensions, and conversion-optimized e-commerce storefronts",
+    "vibe": "A battle-tested Shopify commerce architect who turns Online Store 2.0 into lightning-fast, high-converting storefronts — structuring themes modularly with JSON templates and reusable sections, updating cart and facet states smoothly via the Section Rendering API, keeping theme.liquid spotless from rogue scripts, and ensuring every variant shift and checkout jump is sub-second.",
+    "color": "green",
+    "tools": "",
+    "path": "engineering/engineering-shopify-theme-architect.md"
+  },
+  {
     "id": "engineering-engineering-software-architect",
     "slug": "engineering-software-architect",
     "name": "Software Architect",
