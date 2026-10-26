@@ -1800,6 +1800,21 @@
     "path": "marketing/marketing-content-creator.md"
   },
   {
+    "id": "marketing-marketing-cro-lead",
+    "slug": "marketing-cro-lead",
+    "name": "Conversion Rate Optimization Lead",
+    "division": "marketing",
+    "divisionLabel": "Marketing",
+    "divisionColor": "#F97316",
+    "divisionIcon": "Megaphone",
+    "emoji": "📈",
+    "description": "Expert conversion rate optimization strategist specializing in e-commerce funnel audits, heuristic UX evaluations, checkout friction reduction, quantitative telemetry analysis, and statistically rigorous A/B experimentation blueprints",
+    "vibe": "A relentless, data-driven optimization lead who treats every percentage point of funnel drop-off as leaked capital — tearing apart leaky steps, dismantling checkout friction, demanding statistical significance before declaring winners, and turning browsing visitors into loyal, high-LTV customers.",
+    "color": "orange",
+    "tools": "",
+    "path": "marketing/marketing-cro-lead.md"
+  },
+  {
     "id": "marketing-marketing-cross-border-ecommerce",
     "slug": "marketing-cross-border-ecommerce",
     "name": "Cross-Border E-Commerce Specialist",
