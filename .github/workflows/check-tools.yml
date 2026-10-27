@@ -32,9 +32,9 @@ jobs:
         run: bash scripts/test-convert-symlink-output.sh
 
       - name: Validate converted outputs (round-trip, strict parse, counts, drift)
-        # Drift is advisory on pull requests (agent PRs always move their own manifest line;
-        # maintainers regenerate at landing) and enforced on pushes to main.
-        run: bash scripts/test-convert-outputs.sh ${{ github.event_name == 'pull_request' && '--drift=advisory' || '' }}
+        # Drift is advisory on pull requests and fork repositories (agent PRs always move their
+        # own manifest line; upstream maintainers regenerate at landing) and enforced on pushes to upstream main.
+        run: bash scripts/test-convert-outputs.sh ${{ (github.event_name == 'pull_request' || github.repository != 'msitarzewski/agency-agents') && '--drift=advisory' || '' }}
 
       - name: Parse indented code fences like lib.sh in the outputs eval
         run: bash scripts/test-convert-fence-model.sh
